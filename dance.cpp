@@ -1,5 +1,5 @@
 #include "dance.h"
-#include <pololu/orangutan.h>
+#include <pololu/3pi.h>
 /*
  * buzzer1: for the Orangutan LV/SV-xx8
  *

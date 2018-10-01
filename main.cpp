@@ -22,26 +22,26 @@
 
 // Introductory messages.  The "PROGMEM" identifier causes the data to
 // go into program space.
-const char msg_panteras[]
-PROGMEM = "Panteras";
-const char msg_manila[]
-PROGMEM = "Manila";
-const char msg_select[]
-PROGMEM = "select";
-const char msg_mode[]
-PROGMEM = "mode";
-const char msg_race[]
-PROGMEM = "race";
-const char msg_dance[]
-PROGMEM = "dance";
-const char msg_power[]
-PROGMEM = "power";
-const char msg_paused[]
-PROGMEM = "Paused";
-const char msg_go[]
-PROGMEM = "Go!";
-const char msg_dancing[]
-PROGMEM = "Dancing";
+char msg_panteras[] = "Panteras";
+//PROGMEM = "Panteras";
+char msg_manila[] = "Manila";
+//PROGMEM = "Manila";
+char msg_select[] = "Select";
+//PROGMEM = "Select";
+char msg_mode[] = "mode";
+//PROGMEM = "mode";
+char msg_race[] = "Race";
+//PROGMEM = "Race";
+char msg_dance[] = "Dance";
+//PROGMEM = "Dance";
+char msg_power[] = "Power";
+//PROGMEM = "Power";
+char msg_paused[] = "Paused";
+//PROGMEM = "Paused";
+char msg_go[] = "Go!";
+//PROGMEM = "Go!";
+char msg_dancing[] = "Dancing";
+//PROGMEM = "Dancing";
 
 // BUTTONS FOR MODES
 #define MODE_RACE_BUTTON BUTTON_A
